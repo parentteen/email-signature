@@ -2,34 +2,137 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title> test email sig </title>
+    <title> Ring Email Signature </title>
+
+    <!-- START Inline CSS -->
+    <style>
+      body {
+        font-family: 'Helvetica';
+      }
+      a {
+        text-decoration: none;
+        color:#1998D5 ;
+      }
+        .ring-logo {
+          width: 120px;
+          height: 77px;
+          padding-top: 40px;
+          padding-left: 10px;
+        }
+        .container {
+          float: left;
+          border-left: 2px solid #1998D5 ;
+          padding-left: 20px;
+          margin-left: 20px;
+        }
+
+        .name {
+          margin: 0px;
+          font-size: 20px;
+          display: inline;
+          font-weight: bold;
+          color:#1998D5 ;
+
+        }
+
+        .position {
+          font-size: 15px;
+          font-weight: normal;
+          color:#404041;
+
+        }
+        .address {
+          margin: 0px;
+          font-size: 15px;
+          display: block;
+          color: #404041;
+          padding-top: 20px;
+        }
+        .links {
+          margin: 0px;
+          font-size: 9px;
+          display:block;
+          color: #1998d5;
+          padding-top: 15px;
+
+
+        }
+
+        .phone {
+          margin: 0px;
+          font-size: 11px;
+          display: block;
+          color: #404041;
+          padding-top: 5px;
+        }
+        .ring {
+          float:left;
+        }
+        .social-links {
+          list-style: none;
+          /*padding-left: 0px;*/
+          float: right;
+          margin: 0px;
+        }
+          .social-links li {
+            float:left;
+            margin-right: 10px;
+          }
+          .social-links img {
+            width: 10px;
+            height: 10px;
+          }
+          .social-links a {
+            color:#1998D5 ;
+            font-size: 5px;
+
+          }
+
+
+    </style>
+    <!-- END Inline CSS -->
   </head>
   <body>
-    <!-- START TABLE -->
-    <table height="144" style="font-family:'Helvetica';font-weight:light;">
-      <tbody>
-        <tr>
-          <td>
-            <img src="img/ring+bar.png" alt="ring and the bar"/>
-          </td>
-          <!-- NAME BELOW -->
-          <td valign="top">
-            <div style="font-weight:light; padding-left:20px; padding-top:20px;color:#1998D5;font-size:20px;padding-bottom:6px;">Micah Carroll
-              <!-- TITLE BELOW-->
-              <span style="color:black;font-size:14px;"> jr.designer</span></div>
-            <div style="padding-left:20px;"> 1523 26th Street </div>
-            <div style="padding-left:20px;"> Santa Monica, CA 90404 </div>
-            <!-- PHONE BELOW -->
-            <div style="padding-left:20px;"> T (323)801-8210 </div>
-            <div style="padding-left:20px;"> Twitter,  </div>
-        </tr>
 
 
+    <!-- START 2nd signature -->
+
+    <!-- START Ring Logo 🐳 -->
+    <div style="float:left;display:block">
+      <a href="https://ring.com/" target="_blank">
+      <img src="img/ring-logo.png" alt="ring logo without bar" class="ring-logo"/>
+    </a>
+    </div>
+    <div class="container"> <!-- CONTAINER FOR INFO -->
+      <!-- START title -->
+      <div class="name">Micah Carroll <span class="position"> Jr.Designer <span></div>
+      <!-- END title -->
+      <!-- START address -->
+      <div class="address"> 1523 26th Street <br> Santa Monica, CA 900404 </div>
+      <!-- END address -->
+      <!-- START phone number -->
+      <div class="phone"><span style="color:#1998D5;"> T </span> (323) 501-4886 </div>
+      <!-- END phone number -->
+      <!-- START links -->
+      <div class="links"> <a href="http://fortune.com/2015/08/19/ring-richard-branson/" target="_blank"> Fortune Magazine</a> <br> <a href="https://vimeo.com/96825409" target="_blank">Shark Tank (password: doorbot)</a> <br><a href="https://www.youtube.com/watch?v=RX3sYOtqe2Q" target="_blank">Truth about Daytime Burglaries </a>  </div>
+      <!-- END links -->
+
+      <!-- START ring homepage -->
+      <div class="ring"> <a href="https://ring.com/" target="_blank" style="font-size:10px;">www.ring.com </a>
+
+      <!-- END ring homepage -->
+
+      <!-- START social media -->
+      <ul class="social-links">
+        <li> <a href="https://www.facebook.com/ring/" target="_blank"> <img src="img/facebook-logo-1.svg" alt="facebook"></a> </li>
+        <li> <a href="https://twitter.com/ring" target="_blank"> <img src="img/twitter-sign.svg" alt="twitter"></a> </li>
+        <li> <a href="https://www.instagram.com/ring/" target="_blank"> <img src="img/instagram-symbol.svg" alt="instagram"></a> </li>
+        <li> <a href="https://www.youtube.com/channel/UCSDG3M0e2mGX9_qtHEtzj2Q" target="_blank"> <img src="img/youtube-logo.svg" alt="youtube"></a> </li>
+      </ul>
+      </div>
+      <!-- END social media -->
 
 
-      </tbody>
-
-    </table>
-    <!-- END TABLE -->
+    </div>
   </body>
 </html>
